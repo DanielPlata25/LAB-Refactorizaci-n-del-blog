@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" />
     <title>Contacto - Delete System32</title>
   </head>
@@ -17,27 +18,35 @@
     </nav>
 
     <main>
-      <section style="padding: 50px; text-align: center;">
-        <div class="contenedorContacto">
-        <h1>Contacto</h1>
-        <form action=""><!--?Formulario para enviar informacion, action dirige
-        el contenido del form a una ruta--> 
-        <label for="nombre">Nombre</label><!--Etiqueta descriptiva 
-        para un input(entrada de datos)--> 
-        <input type="text" id="nombre" placeholder="Escribe tu nombre"><!--Campo de texto-->
+      
+      <div class="container">
         <br>
-        <br>
-        <label for="correo">Correo </label><!--Etiqueta descriptiva 
-        para un input(entrada de datos)--> 
-        <input type="text" id="correo" placeholder="Escribe tu correo">
-        <br>
-        <br>
-        <label for="mensaje">Mensaje</label><!--Etiqueta descriptiva 
-        para un input(entrada de datos)--> 
-        <input type="text" id="mensaje" placeholder="Escribe tu mensaje">
-        <button type="submit">Enviar</button><!--Boton para enviar el formulario--> 
-        </form>
-    </div>
+        <div class="input-group mb-3">
+          <label class="input-group-text" for="inputGroupSelect01">Asunto</label>
+          <select class="form-select" id="inputGroupSelect01">
+            
+            <option selected>Elige una opción</option>
+            <option value="1">Problema con la pagina web</option>
+            <option value="2">Problema con tu cuenta</option>
+            <option value="3">Comentarios</option>
+            <option value="4">Contacto</option>
+          </select>
+          <div class="container">
+            <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Correo electronico</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="correo@ejemplo.com">
+            </div>
+          </div>
+          <div class="container">
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Escribe una breve explicación</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="button" class="btn btn-primary" id="liveAlertBtn">Enviar</button>  
+        </div>
+        </div>
+        <script src="script.js"></script>
+      </div>
       </section>
     </main>
 
@@ -66,6 +75,7 @@
 
       <div class="footer-bottom">
         <p>&copy; 2026 Delete System32 - Todos los derechos reservados.</p>
+      </div>
       </div>
     </footer>
   </body>
