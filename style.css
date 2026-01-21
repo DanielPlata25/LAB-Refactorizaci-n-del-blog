@@ -9,89 +9,88 @@ body {
   flex-direction: column;
   min-height: 100vh;
   /* Fondo negro para el body */
-  background-color: #000000; 
+  background-color: #000000;
   color: white;
   font-family: cursive;
 }
 body {
-    font-family: "Verdana", "Arial", sans-serif;
-    background-color: #ffffff;
-    color: #222;
-    
+  font-family: "Verdana", "Arial", sans-serif;
+  background-color: #ffffff;
+  color: #222;
 }
 p {
-    font-style: oblique;
+  font-style: oblique;
 }
 .logo {
-    float: right;
-    width: 150px;
-    height: auto;
+  float: right;
+  width: 150px;
+  height: auto;
 }
 .titulo {
-    color: #d60000; 
-    font-size: 32px;
-    font-weight: bold;
-    margin-bottom: 18px;
-    letter-spacing: 0.5px;
+  color: #d60000;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 18px;
+  letter-spacing: 0.5px;
 }
 h2 {
-    color: #d60000;
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 18px;
-    letter-spacing: 0.3px;
+  color: #d60000;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 18px;
+  letter-spacing: 0.3px;
 }
-.horizontal{
-    width: 800px;
-    height: auto;
-    background-color: #d60000;
-    margin-bottom: 20px;
-     border-radius: 12px;
-    box-shadow: 4px 4px 8px rgba(0,0,0,0.2);
+.horizontal {
+  width: 800px;
+  height: auto;
+  background-color: #d60000;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
 }
-.caratula{
-    width: auto;
-    height: 800px;
-    border: 4px solid #d60000;
-    border-radius: 12px;
-    box-shadow: 4px 4px 8px rgba(0,0,0,0.2);
-    margin-bottom: 20px;
+.caratula {
+  width: auto;
+  height: 800px;
+  border: 4px solid #d60000;
+  border-radius: 12px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
 }
 .contenedor {
-    justify-content: center;
-    display: flex;
-    width: auto;
-    height: auto;
-    padding: 25px;
-    font-size: 18px;
+  justify-content: center;
+  display: flex;
+  width: auto;
+  height: auto;
+  padding: 25px;
+  font-size: 18px;
 }
 .contenedor1 {
-    text-align: center;
-    width: auto;
-    height: auto;
-    padding: 25px;
-    font-size: 18px;
+  text-align: center;
+  width: auto;
+  height: auto;
+  padding: 25px;
+  font-size: 18px;
 }
 .contenedor2 {
-    text-align: center;
-    width: auto;
-    height: auto;
-    padding: 25px;
-    font-size: 18px;
+  text-align: center;
+  width: auto;
+  height: auto;
+  padding: 25px;
+  font-size: 18px;
 }
 .contenedor3 {
-    text-align: center;
-    width: auto;
-    height: auto;
-    padding: 25px;
-    font-size: 18px;
+  text-align: center;
+  width: auto;
+  height: auto;
+  padding: 25px;
+  font-size: 18px;
 }
 .contenedor4 {
-    text-align: center;
-    width: auto;
-    height: auto;
-    padding: 25px;
-    font-size: 18px;
+  text-align: center;
+  width: auto;
+  height: auto;
+  padding: 25px;
+  font-size: 18px;
 }
 
 main {
@@ -102,7 +101,7 @@ nav {
   width: 100%;
   padding: 1.5rem 5%;
   /* Azul oscuro para el fondo */
-  background-color: #003366; 
+  background-color: #003366;
   border-bottom: 3px solid #0059b3;
   display: flex;
   align-items: center;
@@ -132,14 +131,13 @@ nav h2 {
 
 .nav-links li a:hover {
   /* Efecto azul vibrante */
-  background-color: #00ccff; 
+  background-color: #00ccff;
   color: white;
 }
 
 /* --- FOOTER --- */
 footer {
-
-  background-color: #001a33; 
+  background-color: #001a33;
   color: white;
   padding: 30px 5% 20px;
   border-top: 4px solid #003366;
@@ -150,9 +148,8 @@ footer {
 }
 
 .footer-right {
-  text-align:right
+  text-align: right;
 }
-
 
 .footer-wrapper {
   display: flex;
@@ -164,7 +161,7 @@ footer {
 
 footer h2 {
   font-size: 24px;
-  color: #00ccff; 
+  color: #00ccff;
 }
 
 .nombres {
@@ -179,21 +176,19 @@ footer h2 {
 }
 
 .list-nombres li {
-  display: flex;             
-  justify-content: flex-start; 
-  gap: 15px;                
-  white-space: nowrap;       
-  list-style: none;          
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+  white-space: nowrap;
+  list-style: none;
   margin-bottom: 8px;
 }
 
-
 .list-nombres li span.email {
-  color: #00ccff;            
+  color: #00ccff;
   font-weight: normal;
   opacity: 0.9;
 }
-
 
 .footer-bottom {
   text-align: center;
@@ -204,15 +199,14 @@ footer h2 {
   opacity: 0.6;
 }
 
-
 /* ! Parte del nosotros */
-.nosotros{
+.nosotros {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 2rem 5%;
-  background-color: black
+  background-color: black;
 }
 
 .nosotros-contenidoh2 {
@@ -238,21 +232,57 @@ footer h2 {
   width: 500px;
   border-radius: 20px;
   margin-top: 20px;
-  
 }
 
 /* ! Parte del nosotros */
-.contenedorContacto{
-    align-items: center;
-    font-family: cursive;
-    position: center;
-    top: 50px; 
-    left: 50px;
-    width: 380px;
-    height: 220px;
-    background-color: cadetblue; 
-    border: 2px solid black;
-    padding: 15px; 
-    margin-bottom: 20px;
-    border-radius: 8px;
+.contenedorContacto {
+  align-items: center;
+  font-family: cursive;
+  position: center;
+  top: 50px;
+  left: 50px;
+  width: 380px;
+  height: 220px;
+  background-color: cadetblue;
+  border: 2px solid black;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+:root {
+  --color-beige: #f6d9a7;
+  --color-rojo: #c7372f;
+  --color-rojo-oscuro: #7b1612;
+  --color-verde-oliva: #5b6b2d;
+  --color-cafe: #8b6a4e;
+}
+body {
+  background-color: var(--color-beige);
+}
+/* Fondos */
+.bg-rojo {
+  background-color: var(--color-rojo);
+}
+.bg-rojo-oscuro {
+  background-color: var(--color-rojo-oscuro);
+}
+.bg-verde {
+  background-color: var(--color-verde-oliva);
+}
+/* Texto */
+.text-rojo {
+  color: var(--color-rojo);
+}
+.text-rojo-oscuro {
+  color: var(--color-rojo-oscuro);
+}
+/* Botones personalizados */
+.btn-rojo {
+  background-color: var(--color-rojo);
+  color: white;
+  border: none;
+}
+.btn-rojo:hover {
+  background-color: var(--color-rojo-oscuro);
 }
